@@ -10,6 +10,13 @@
   spec: {
       selector: {
         app: serviceName,
+      },
+      ports: [
+      {
+        protocol: TCP,
+        port: 80,
+        targetPort: 9376
       }
+      ]
   }
 }
