@@ -1,14 +1,15 @@
 {
   // Required arguments for this template
-  serviceName:: nginx,
+  local serviceName = nginx;
+  
   apiVersion: "v1",
   kind: "Service",
   metadata: {
-    name: $.serviceName,
+    name: serviceName,
   },
   spec: {
       selector: {
-        serviceName: $.serviceName,
+        serviceName: serviceName,
       }
   }
 }
