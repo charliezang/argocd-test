@@ -9,7 +9,7 @@
   },
   spec: {
       selector: {
-        serviceName: serviceName,
+        app: serviceName,
       }
   }
 }
