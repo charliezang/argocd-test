@@ -13,7 +13,7 @@
       },
       ports: [
       {
-        protocol: TCP,
+        protocol: "TCP",
         port: 80,
         targetPort: 9376
       }
