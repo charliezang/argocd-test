@@ -1,6 +1,6 @@
 {
   // Required arguments for this template
-  local serviceName = nginx;
+  local serviceName = nginx,
   
   apiVersion: "v1",
   kind: "Service",
