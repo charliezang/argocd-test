@@ -1,0 +1,9 @@
+jenkins:
+  enabled: true
+  masters:
+    - name: jenkins
+      permissions: {}
+      address: https://baidu.com
+      username: aa
+      password: a
+      csrf: true
